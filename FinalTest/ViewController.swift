@@ -20,6 +20,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func attemptRecovery(fromError error: Error, optionIndex recoveryOptionIndex: Int, delegate: Any?, didRecoverSelector: Selector?, contextInfo: UnsafeMutableRawPointer?) {
+        
+    }
 
 }
 
